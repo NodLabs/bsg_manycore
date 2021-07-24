@@ -3,7 +3,7 @@ ifndef LLVM_DIR
 endif
 
 # devtoolset-8
-HOST_TOOLCHAIN ?= /opt/rh/devtoolset-8/root/usr/bin
+HOST_TOOLCHAIN ?= /usr/bin
 
 # We need cmake3. On older RHEL systems, cmake is version 2 and cmake3
 # is version 3. On newer systems cmake is version3. Default to cmake3
